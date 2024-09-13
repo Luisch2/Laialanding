@@ -1,0 +1,78 @@
+[
+    {
+        "thumbnail": "/img/chat.png",
+        "lesson": "",
+        "title": "PRIMERA SECCION",
+        "description": "Utilización de Chat Gtp para empresas,implementacion de IA en su negocio",
+        "duration": "4:00:00",
+        "slug": "introduction-to-computer-science"
+    },
+    {
+        "thumbnail": "/img/marketi.jpg",
+        "lesson": "",
+        "title": "SEGUNDA SECCION",
+        "description": "Creacion de plan de marketing digital y construccion de Funel(ciclo de venta)",
+        "duration": "3:00:00",
+        "slug": "data-structures-and-algorithms"
+    },
+    {
+        "thumbnail": "/img/creacion.jpg",
+        "lesson": "",
+        "title": "TERCERA SECCION",
+        "description": "Creacion de paginas web con IA para negocio y optimizacion de FanPage,Instragam(Redes sociales)",
+        "duration": "3:00:00",
+        "slug": "sql-and-nosql-databases"
+    },
+    {
+        "thumbnail": "/img/adds2.jpg",
+        "lesson": "",
+        "title": "CUARTA SECCION",
+        "description": "Creación de contenido mensual automatizado con Inteligencia Artificial y desarrollo de anuncios en Facebook Ads desde cero",
+        "duration": "2:00:00",
+        "slug": "computer-architecture"
+    },
+    {
+        "thumbnail": "/img/adds.jpg",
+        "lesson": "",
+        "title": "QUINTA SECCION",
+        "description": "Campañas de Facebook Ads para posicionamiento, interacción y captación de clientes potenciales, con ejemplos incluidos",
+        "duration": "5:00:00",
+        "slug": "discrete-math"
+    },
+    {
+        "thumbnail": "/img/capcut.jpg",
+        "lesson": "",
+        "title": "SEXTA SECCION",
+        "description": "Creación de contenido viral en TikTok e Instagram con hacks estratégicos y edición de videos profesionales desde cero en CapCut para empresas",
+        "duration": "1:00:00",
+        "slug": "javascript-programming-language"
+    },
+    
+    {
+        "thumbnail": "/img/canva.png",
+        "lesson": "",
+        "title": "SEPTIMA SECCION",
+        "description": "Uso de Canva Pro para diseño y contenido de marca, con optimización de anuncios y posts mediante IA.",
+        "duration": "1:00:00",
+        "slug": "javascript-programming-language"
+    },
+    {
+        "thumbnail": "/img/bot.jpg",
+        "lesson": "",
+        "title": "OCTAVO SECCION",
+        "description": "Automatización de Ventas, chatbot e inteligencia Artificial",
+        "duration": "3:00:00",
+        "slug": "javascript-programming-language"
+    },
+    {
+        "thumbnail": "/img/cañete.jpg",
+        "lesson": "",
+        "title": "NOVENA SECCION",
+        "description": "Evento presencial de graduacion y networking",
+        "duration": "1:00:00",
+        "slug": "javascript-programming-language"
+    }
+    
+    
+
+]

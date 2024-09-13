@@ -1,0 +1,101 @@
+
+  
+  <nav id="navbar" class="fixed top-0 left-0 z-2 shadow-md z-20 w-full">
+    <div class="max-w-7xl mx-auto py-2 px-6 sm:px-4">
+        <div class="flex justify-between h-16">
+            <div class="flex w-full">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="/">
+                        <img class="h-10 w-auto" src="/img/logo_white.svg" alt="Logo" />
+                    </a>
+                </div>
+                <!-- Navigation Links -->
+                <div class="hidden md:ml-6 md:flex md:space-x-8 w-full justify-center text-md font-normal">
+                    <a href="#" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:text-gray-700">
+                        Inicio
+                    </a>
+                    <a href="#Modulos" class="text-white inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:text-gray-700">
+                        Beneficios
+                    </a>
+                </div>
+            </div>
+            <!-- Right-side Buttons -->
+            <div class="flex items-center space-x-4">
+                <a href="tel:+51952468674" class="hidden md:inline-flex text-white items-center py-2 text-md font-normal rounded-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                        <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="ml-1 hover:text-gray-700">952468674</span>
+                </a>
+                <a href="https://wa.me/51952468674?text=Deseo%20m%C3%A1s%20informaci%C3%B3n%20del%20curso" target="_blank" class="bg-transparent text-white inline-flex items-center px-3 py-2 border border-white text-md font-normal rounded-md shadow-sm">Contactar</a>
+                <!-- Mobile menu button -->
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" data-toggle="mobile-menu">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Icon when menu is closed. -->
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" data-icon="menu">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!-- Icon when menu is open. -->
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" data-icon="close">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="hidden md:hidden bg-white rounded-b-md" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
+            <a href="#" class="text-gray-900 flex items-center px-3 py-2 rounded-md text-base font-medium">
+                Inicio
+            </a>
+            <a href="#Modulos" class="text-gray-900 flex items-center px-3 py-2 rounded-md text-base font-medium">
+                Beneficios
+            </a>
+            <a href="tel:+51952468674" class="text-gray-900 flex items-center px-3 py-2 rounded-md text-base font-medium">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4">
+                    <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
+                </svg>
+                <span class="ml-1">952468674</span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.querySelector('[data-toggle="mobile-menu"]');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = toggleButton.querySelector('[data-icon="menu"]');
+        const closeIcon = toggleButton.querySelector('[data-icon="close"]');
+        
+        toggleButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+    });
+    document.addEventListener("scroll", function() {
+    var navbar = document.getElementById("navbar");
+    if (window.scrollY >= window.innerHeight*(3/4)) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+</script>
+
+<style>
+    #navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+#navbar.scrolled {
+    background-color: #7F00B2;
+}
+</style>
