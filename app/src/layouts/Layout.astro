@@ -15,6 +15,12 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<script charset="utf-8" type="text/javascript" src="https://dev.apichat.webapp.pe/embed.js"></script>
+        <script>
+            window.initializeChatbot({
+                companyId: 'a20c1318-5126-4ecc-ae79-4d2b1e018537' // Reemplazar con el companyId específico
+            });
+        </script>
 	</head>
 	<body>
 		<slot />
